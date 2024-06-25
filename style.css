@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px 10px;
+  border-radius: 0.5rem;
+  color: white;
+}
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.wrapper {
+  background-color: #faf0f0;
+}
+.top-header {
+  width: 100%;
+  background-color: #009432;
+  display: flex;
+  justify-content: center;
+}
+
+.top-header .content {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.top-header .content .email a,
+.top-header .content .phone a {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.below-header {
+  padding-top: 0.4rem;
+}
+.below-header .left {
+  width: 120px;
+}
+
+.below-header .left a img {
+  width: 100%;
+}
+
+.below-header .right ul li {
+  padding: 10px 20px;
+  margin-left: 0.2rem;
+}
+.below-header .right ul li a {
+  color: rgb(40, 33, 33);
+}
+.below-header .right ul li:last-child {
+  background-color: red;
+  padding: 12px 30px;
+  border-radius: 1rem;
+  color: white;
+}
+.below-header .right ul li:last-child a {
+  color: white;
+}
+.below-header .right ul li:hover {
+  background-color: red;
+  border-radius: 1rem;
+  color: white;
+}
+.below-header .right ul li:hover a {
+  color: #fff;
+}
+
+#banner .heading {
+  text-align: center;
+  font-size: 2.8rem;
+  color: green;
+  margin: 2rem;
+}
+.banner-part .banner-left {
+  width: 50%;
+  padding-right: 2rem;
+  text-align: justify;
+}
+#banner .banner-part .banner-left h3 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+#banner .banner-part .banner-left h1 {
+  font-size: 3rem;
+  color: red;
+  padding: 1rem 0;
+  font-weight: 800;
+}
+
+#banner .banner-part .banner-left p {
+  line-height: 1.7rem;
+}
+
+.btns {
+  padding: 2rem 0;
+}
+.btns ul li:nth-child(odd) {
+  background-color: red;
+}
+
+.btns ul li:nth-child(even) {
+  background-color: green;
+}
+#offer {
+  padding: 40px 0px;
+}
+#offer .content {
+  width: 50%;
+}
+#offer .content > h2 {
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: red;
+  padding: 30px 0px;
+}
+
+#offer .content .content-detail {
+  width: 100%;
+}
+
+#offer .content .content-detail .detail-item {
+  padding: 20px 30px;
+  background: green;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  min-width: 100px;
+  text-align: center;
+}
+
+#offer .content .content-detail .detail-item:last-child {
+  background-color: red;
+}
+#offer .content .content-detail .detail-item h3 {
+  font-size: 2rem;
+}
+#offer .content .content-detail .detail-item p {
+  font-size: 1rem;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
