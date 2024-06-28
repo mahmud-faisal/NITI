@@ -133,6 +133,7 @@ a {
 #banner .banner-part .banner-right {
   border: 10px solid rgba(253, 232, 109, 0.603);
   border-radius: 10px;
+  height: 100%;
 }
 .btns {
   padding: 2rem 0;
@@ -203,5 +204,49 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.courses h2 {
+  text-align: center;
+  margin: 60px 0px;
+  font-family: "Lobster", sans-serif;
+  color: #009432;
+  font-size: 3rem;
+}
+.courses .course-item {
+  flex-wrap: wrap;
+}
+.courses .course-item .card {
+  max-width: 23%;
+  border: #009432 1px solid;
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  min-width: 23%;
+}
+
+.courses .course-item .card h3 {
+  margin: 10px 0px;
+}
+.courses .course-item .card p {
+  letter-spacing: 1px;
+}
+.courses .course-item .card button {
+  color: white;
+  background-color: red;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+}
+
+.courses .course-item .card button:hover {
+  background-color: #fff;
+  color: red;
+  transition: 0.5s;
   cursor: pointer;
 }
