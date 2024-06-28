@@ -62,7 +62,11 @@ a {
   font-size: 1em;
   letter-spacing: 1px;
 }
-
+#header {
+  position: sticky;
+  top: 0px;
+  background-color: #faf0f0;
+}
 .below-header {
   padding-top: 0.4rem;
 }
@@ -106,7 +110,7 @@ a {
   margin: 2rem;
 }
 .banner-part .banner-left {
-  width: 50%;
+  max-width: 50%;
   padding-right: 2rem;
   text-align: justify;
 }
@@ -126,6 +130,10 @@ a {
   line-height: 1.7rem;
 }
 
+#banner .banner-part .banner-right {
+  border: 10px solid rgba(253, 232, 109, 0.603);
+  border-radius: 10px;
+}
 .btns {
   padding: 2rem 0;
 }
@@ -180,4 +188,20 @@ a {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.top-btn .top {
+  color: #fff;
+  background-color: red;
+  width: 55px;
+  height: 45px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
 }
