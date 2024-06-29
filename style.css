@@ -66,6 +66,7 @@ a {
   position: sticky;
   top: 0px;
   background-color: #faf0f0;
+  z-index: 10;
 }
 .below-header {
   padding-top: 0.4rem;
@@ -81,6 +82,8 @@ a {
 .below-header .right ul li {
   padding: 10px 20px;
   margin-left: 0.2rem;
+  border-radius: 1rem;
+  transition: 1s;
 }
 .below-header .right ul li a {
   color: rgb(40, 33, 33);
@@ -90,13 +93,21 @@ a {
   padding: 12px 30px;
   border-radius: 1rem;
   color: white;
+  transition: all 1s;
+  box-shadow: 1px 1px 5px maroon;
+}
+.below-header .right ul li:last-child:hover {
+  background-color: green;
+  box-shadow: 1px 1px 5px rgb(0, 89, 0);
+  padding: 10px 15px;
+  color: white;
 }
 .below-header .right ul li:last-child a {
   color: white;
 }
 .below-header .right ul li:hover {
   background-color: red;
-  border-radius: 1rem;
+
   color: white;
 }
 .below-header .right ul li:hover a {
@@ -189,6 +200,7 @@ a {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 3rem;
 }
 
 .top-btn .top {
@@ -249,4 +261,52 @@ a {
   color: red;
   transition: 0.5s;
   cursor: pointer;
+}
+/* //Offer animation */
+@keyframes offerImage {
+  0% {
+    transform: translate(-1px, -5px);
+  }
+  50% {
+    transform: translateY(1px, 5px);
+  }
+  100% {
+    transform: translateY(-1px, -5px);
+  }
+}
+
+.courses .course-item .card img {
+  animation: offerImage 1.2s ease-in-out infinite alternate;
+}
+
+#aboutus {
+  margin: 50px 0px;
+}
+#aboutus h2 {
+  text-align: center;
+  color: #009432;
+}
+
+#aboutus .content .top p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4rem;
+}
+#aboutus .content .top {
+  padding: 50px 0px;
+}
+#aboutus .content a {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+#aboutus .content .more-btn {
+  width: 100%;
+}
+#aboutus .content .more-btn a {
+  width: 140px;
+  border-radius: 30px;
+  background-color: red;
+  padding: 10px 15px;
 }
