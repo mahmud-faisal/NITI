@@ -355,3 +355,60 @@ a {
 #aboutus .content .about-top {
   margin-bottom: 50px;
 }
+#ceo {
+  padding: 5rem 0;
+}
+#ceo h2 {
+  color: #009432;
+  text-align: center;
+}
+#ceo > .content {
+  padding: 60px 0px;
+}
+#ceo .content .left {
+  max-width: 50%;
+}
+#ceo .content .left .content h3 {
+  color: red;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+#ceo .content .left .content h5 {
+  color: green;
+  font-size: 1rem;
+  margin: 0 0 1.5rem 0;
+}
+#ceo .content .left .content h4 {
+  color: green;
+}
+#ceo .content .left .content p {
+  line-height: 2rem;
+  font-weight: 500;
+  color: black;
+  margin: 20px 0 30px 0;
+}
+#ceo .content .left .content a {
+  width: 140px;
+  border-radius: 30px;
+  background-color: red;
+  padding: 10px 25px;
+  color: #fff;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+#ceo .content .right {
+  max-width: 50%;
+  border-radius: 10px;
+  border: 15px goldenrod solid;
+}
+#ceo .content .right img {
+  min-width: 40rem;
+  height: 26rem;
+}
+
+#ceo > h2,
+#mentors h2 {
+  color: green;
+  text-align: center;
+}
