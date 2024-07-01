@@ -412,3 +412,85 @@ a {
   color: green;
   text-align: center;
 }
+.text-center {
+  text-align: center;
+}
+
+#mentors {
+  margin: 40px 0px;
+}
+#mentors .content {
+  padding: 50px 0px;
+}
+#mentors .content .items {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#mentors .content .items .card {
+  width: 23%;
+  border: 2px solid green;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgb(98, 239, 98);
+  margin: 20px 0px;
+}
+
+#mentors .content .items .card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 49% 51% 52% 48% / 34% 35% 65% 66%;
+}
+#mentors .content .items .card .card-txt {
+  margin: 20px 5px;
+}
+
+#mentors .content .items .card .card-txt h3 {
+  text-align: center;
+  font-weight: bold;
+}
+#mentors .content .items .card .card-txt h4 {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #009432;
+  text-align: center;
+  margin: 5px 0px;
+}
+#mentors .content .items .card .card-txt p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+#mentors .content .items .card .card-txt a {
+  width: 100%;
+  border-radius: 30px;
+  background-color: green;
+  padding: 10px 25px;
+  color: #fff;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.5s;
+}
+#mentors .content .items .card .card-txt a:hover {
+  width: 100%;
+  border-radius: 30px;
+  background-color: red;
+  transform: translateY(-5px);
+  padding: 10px 25px;
+  color: #fff;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+#mentors .content a {
+  /* width: 100%; */
+  border-radius: 30px;
+  background-color: red;
+  padding: 10px 25px;
+  color: #fff;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.5s;
+}
